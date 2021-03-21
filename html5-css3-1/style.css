@@ -1,10 +1,28 @@
 body{
     font-family: sans-serif;
     background: #cccccc;
+    padding: 0;
+    margin: 0;
 }
 img {
     width: 100%;
 }
+.main h1 {
+    font-size: 5vh;
+    padding: 30px;
+}
 h1, p {
     text-align: center;
+}
+.beneficios {
+background: #FFFFFF;
+padding: 20px;
+}
+.beneficios > h2 {
+    text-align: center;
+}
+.beneficios > ul {
+    font-style: italic;
+    display: inline-block; 
+    vertical-align: top;
 }
