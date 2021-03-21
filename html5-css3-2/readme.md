@@ -1,0 +1,3 @@
+### Projeto feito na formação FRONTEND Alura - NIVEL básico. PARTE 2
+> É trabalhando conceitos de posicionamentos, formatação HTML + CSS.
+
