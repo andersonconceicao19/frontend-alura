@@ -32,3 +32,25 @@ nav li a {
     font-weight: bold;
     color: black;
 }
+.servicos {
+    width: 100%;
+    position: relative;
+   
+}
+.produtos {
+    width: 70%;
+    margin: 0 auto;
+
+}
+.produtos li {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    padding: 20px;
+}
+.produtos h2 {
+    text-align: center;
+}
+.produtos p {
+    text-align: center;
+}
