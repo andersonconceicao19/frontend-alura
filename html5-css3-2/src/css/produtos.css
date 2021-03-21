@@ -32,25 +32,51 @@ nav li a {
     font-weight: bold;
     color: black;
 }
+nav li a:hover {
+    color: blue;
+}
 .servicos {
     width: 100%;
     position: relative;
-   
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .produtos {
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
 
 }
 .produtos li {
     display: inline-block;
-    width: 28%;
+    width: 30%;
     vertical-align: top;
-    padding: 20px;
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos li:active {
+    border-color: #088C19;
 }
 .produtos h2 {
     text-align: center;
+    font-size: 32px;
 }
+
 .produtos p {
     text-align: center;
+}
+footer {
+    text-align: center;
+    color: #FFFFFF;
+    background: url('./../../assets/bg.jpg');
 }
