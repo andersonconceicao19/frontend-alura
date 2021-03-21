@@ -1,0 +1,10 @@
+body{
+    font-family: sans-serif;
+    background: #cccccc;
+}
+img {
+    width: 100%;
+}
+h1, p {
+    text-align: center;
+}
