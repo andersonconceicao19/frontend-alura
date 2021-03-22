@@ -35,3 +35,32 @@ nav li a {
 nav li a:hover {
     color: blue;
 }
+
+.contact {   
+    margin: 30px;    
+}
+form {
+    margin: 60px;
+}
+form, label {
+    display: block;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 13px;
+}
+
+
+
+
+
+
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background: url('./../../assets/bg.jpg');   
+}
