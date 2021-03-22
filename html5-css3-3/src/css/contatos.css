@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    background: #cccccc;
+}
+header >h1 > img {
+    display: inline-block;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+.navigation {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+nav li {
+    display: inline;
+    padding: 5px;
+}
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+nav li a:hover {
+    color: blue;
+}
