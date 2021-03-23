@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header > h1 {
+    text-align: left;
+    margin-left: 30px;
+}
+img {
+    width: 100%;
+}
+.main {
+    background: #cccccc;
+    padding: 30px;    
+}
+.main h1 {
+    font-size: 5vh;   
+}
+h1, p {
+    text-align: center;
+}
+.beneficios {
+background: #FFFFFF;
+padding: 20px;
+}
+.beneficios > h2 {
+    text-align: center;
+}
+.beneficios > ul {
+    font-style: italic;
+    display: inline-block; 
+    vertical-align: top;
+    margin-right: 20%;
+}
+.beneficios > img {
+    width: 60%;
+}
