@@ -43,7 +43,7 @@ nav li a:hover {
     width: 100%;
 }
 .main {
-    background: #cccccc;
+
     padding: 30px;    
 }
 .main h1 {
@@ -55,8 +55,11 @@ p {
     text-align: center;
 }
 
+.gradientebackground {
+    background: linear-gradient(#FFFFFF, #888888);
+}
 .beneficios {
-    background: #FFFFFF;
+
     width: 80%;
     margin: 0 auto;
 }
@@ -70,6 +73,10 @@ p {
     display: inline-block; 
     vertical-align: top;
     float: left;
+    list-style: georgian;
+}
+.beneficios > ul > li:nth-child(1) {
+    font-weight: bold;
 }
 
 .imgBeneficio {
@@ -77,8 +84,7 @@ p {
     margin-left: 25%;
 }
 .localizacao {
-    padding: 20px;
-
+    padding: 3em;
     width: 90%;
     margin: 0 auto;
 }
