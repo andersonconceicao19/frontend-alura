@@ -88,7 +88,12 @@ p {
     padding: 1em;
 }
 iframe {
+    padding: 1em;
    width: 100%;
+}
+.video {
+    margin: 0 auto;
+    width: 40%;
 }
 footer {
     clear: left;
