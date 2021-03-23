@@ -1,13 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
-header > h1 {
-    text-align: left;
-    margin-left: 30px;
+header {
+    background: #cccccc;
 }
-img {
+header >h1 > img {
+    display: inline-block;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+.navigation {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+nav li {
+    display: inline;
+    padding: 5px;
+}
+nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+nav li a:hover {
+    color: blue;
+}
+.banner {
     width: 100%;
 }
 .main {
@@ -15,24 +44,39 @@ img {
     padding: 30px;    
 }
 .main h1 {
-    font-size: 5vh;   
-}
-h1, p {
+    font-size: 2em;   
+    padding: 1em;
     text-align: center;
 }
+p {
+    text-align: center;
+}
+
 .beneficios {
-background: #FFFFFF;
-padding: 20px;
+    background: #FFFFFF;
+    width: 80%;
+    margin: 0 auto;
 }
 .beneficios > h2 {
     text-align: center;
+    font-size: 2em;   
+    padding: 1em;
 }
 .beneficios > ul {
     font-style: italic;
     display: inline-block; 
     vertical-align: top;
-    margin-right: 20%;
+    float: left;
 }
-.beneficios > img {
-    width: 60%;
+
+.imgBeneficio {
+    width: 55%;
+    margin-left: 25%;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+    color: #FFFFFF;
+    background: url('./../../assets/bg.jpg');
 }
