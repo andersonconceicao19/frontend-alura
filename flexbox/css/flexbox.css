@@ -59,10 +59,11 @@
 }
 .videoSobre-video {
     flex-grow: 1;
+    flex-shrink: 2; 
 }
 
 /*Mobile*/
-@media (max-width: 748px) {
+@media (max-width: 822px) {
     .cabecalhoPrincipal .container {
         width: 100%;
         flex-direction: column;
@@ -104,5 +105,8 @@
     }
     .videoSobre .container {
         flex-direction: column;
+    }
+    .videoSobre-video {
+        margin: 0 auto;
     }
 }
